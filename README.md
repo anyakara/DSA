@@ -1,6 +1,6 @@
 # dsa-implementation-analysis
 
-My hopes with this repo is to track my learning of basic data structures and algorithms, particularly their advanced implementation and analysis.
+My hopes with this repo is to track my learning of data structures and algorithms, their implementation and analysis.
 
 The outline for my class (in no particularly order or preference):
 * Recursion
