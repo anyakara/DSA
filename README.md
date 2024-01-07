@@ -1,4 +1,4 @@
-# ds-implementation-analysis
+# dsa-implementation-analysis
 
 My hopes with this repo is to track my learning of basic data structures and algorithms, particularly their advanced implementation and analysis.
 
