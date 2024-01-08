@@ -16,4 +16,4 @@ The outline for my class (in no particularly order or preference):
 * In Memory Graphs
 * Search & Sorting Algorithms for DS's
 
-Most implementations will be written in C++ with some additions and omissions as need be.
+Most implementations will be written in C++ with some additions and omissions as need be. Serves as a notification for what to do next.
