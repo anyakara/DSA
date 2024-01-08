@@ -38,10 +38,6 @@ class GenericLinkedList
         bool isEmpty() const noexcept;
 
         void update(const Object &elem);
-
-        Object &front(); // returned value modifiable
-        const Object &front() const; // no modifications to the returned value
-
         void remove();
 };
 
@@ -113,41 +109,46 @@ size_t GenericLinkedList<Object>::size() const noexcept
 template<typename Object>
 bool GenericLinkedList<Object>::isEmpty() const noexcept
 {
-
+    if (head == nullptr) {
+        return true;
+    }
+    return false;
 }
 
 
 template<typename Object>
 void GenericLinkedList<Object>::update(const Object &elem)
 {
-
+    if (head == nullptr) {
+        head = new Node(elem);
+        head->next = nullptr;
+        count += 1;
+    } else {
+        Node *tmp{head};
+        while (tmp->next != nullptr) {
+            tmp = tmp->next;
+        }
+        tmp->next = new Node(elem);
+        count += 1;
+    }
 }
 
 
 template<typename Object>
 void GenericLinkedList<Object>::remove()
 {
-
+    if (count == 1) {
+        Node *tmp{head};
+        delete tmp;
+        head = nullptr;
+        count = 0;
+    } else {
+        Node *tmp{head};
+        while (tmp-> != nullptr) {
+            tmp = tmp->next;
+        }
+        delete tmp;
+    }
 }
-
-
-template<typename Object>
-Object & GenericLinkedList<Object>::front()
-{
-
-}
-
-
-template<typename Object>
-const Object & GenericLinkedList<Object>::front() const
-{
-
-}
-
-
-
-
-
-
 
 #endif
