@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "memory_resource": "cpp",
+        "new": "cpp",
+        "string": "cpp",
+        "tuple": "cpp",
+        "typeinfo": "cpp",
+        "vector": "cpp"
+    }
+}
