@@ -38,17 +38,14 @@ class GenericLinkedList
         bool isEmpty() const noexcept;
 
         void update(const Object &elem);
-        void remove();
+        void dequeue();
 };
 
 
 //constructor
 template<typename Object>
-GenericLinkedList<Object>::GenericLinkedList()
-{
-    head{nullptr};
-    count{0};
-}
+GenericLinkedList<Object>::GenericLinkedList(): count{0}, head{nullptr}
+{ }
 
 
 //copy constructor
@@ -135,7 +132,7 @@ void GenericLinkedList<Object>::update(const Object &elem)
 
 
 template<typename Object>
-void GenericLinkedList<Object>::remove()
+void GenericLinkedList<Object>::dequeue()
 {
     if (count == 1) {
         Node *tmp{head};
@@ -144,7 +141,7 @@ void GenericLinkedList<Object>::remove()
         count = 0;
     } else {
         Node *tmp{head};
-        while (tmp-> != nullptr) {
+        while (tmp->next != nullptr) {
             tmp = tmp->next;
         }
         delete tmp;
