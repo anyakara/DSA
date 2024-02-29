@@ -25,6 +25,9 @@ private:
         Node *right_child;
     };
     Node *root;
+
+    void recursivelyInsert(K key, V value, Node *current);
+    void recursivelyRemove(K key, V value, Node *current, Node *parent);
 public:
     // most important functionality of tree access / delete procedures
     BinaryTree(); // constructor
@@ -33,10 +36,8 @@ public:
     [[nodiscard]] size_t size() const;
     [[nodiscard]] bool empty() const;
 
-    void recursivelyInsert(K key, V value, Node *current);
-    void insert(K key, V value);
 
-    void recursivelyRemove(K key, V value, Node *current, Node *parent);
+    void insert(K key, V value);
     void remove(K key, V value);
 };
 
