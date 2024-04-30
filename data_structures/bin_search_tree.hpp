@@ -1,5 +1,5 @@
 #ifndef __GENERIC_BINARY_TREE_HPP
-#define __GENERIC_LINKED_LIST_HPP
+#define __GENERIC_BINARY_TREE_HPP
 
 #include <string>
 
