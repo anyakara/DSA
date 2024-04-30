@@ -1,6 +1,6 @@
 # dsa-implementation-analysis
 
-Tooics:
+Topics:
 * Recursion
 * Graphs
 * Skip Lists
