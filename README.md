@@ -4,7 +4,7 @@
 Culmination of common data structures and algorithms for usage in development of software for high-performance compute, operating systems logic, database systems with efficient information retrieval.
 
 * **Singly, Doubly, Circular Linked List**: useful for dynamic memory management and in the implementation of queues and stacks, used in hardware for managing hardware tasks and processing data.
-* **Graph**
+* [**Graph**] (https://en.wikipedia.org/wiki/Graph_(abstract_data_type)):
 Used extensively in hardware environments for circuit design, simulating components including logic gates, registers, and memory elemnents, while edges represent connections between the components. These data structures are put to use by graph algorithms, which are employed to optimize the layout, reduce power consumption and performance of the circuits.
 * **Binary Tree & Binary Search Tree**: 
 * **Hash Table**:
