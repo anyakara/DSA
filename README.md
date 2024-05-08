@@ -39,4 +39,5 @@ Performance of these algorithms will be compared using time complexity and space
 - Priority Scheduling
 - Multilevel Queue Scheduling
 - Multilevel Feedback Queue Scheduling
+
 Followed by the general logic for scheduling, process creation/termination, resource creation/termination for demonstration of understanding of the material taught in Principles of Operating Systems CS 143A class at the UCI ICS. Understandably, this material is complex due to being able to simulate the inner workings per algorithm. Test cases would need to simulate adding new process, but would require *time* as a factor order of organization etc. Thus, these are to be implemented with testing.
