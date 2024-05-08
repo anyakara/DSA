@@ -26,11 +26,18 @@ Used extensively in hardware environments for circuit design, simulating compone
 
 Performance of these algorithms will be compared using time complexity and space complexity. Their advantages and disadvantages will be listed briefly for appropriate usage.
 
-## CPU Scheduling Algorithms
-* First-Come, First-Served (FCFS)
-* Shortest Job Next (SJN) / Shortest Job First (SFJ)
-* Shortest Remaining Time (SRT)
-* Round Robin (RR)
-* Priority Scheduling
-* Multilevel Queue Scheduling
-* Multilevel Feedback Queue Scheduling
+
+## OS Data Structures
+* **Process Control Blocks (PCB)**: Data structures that are essential for process manipulation, state handling, allocation and deallocation of resources, termination or control of child processes. Utilizes a unique hierarchy to organize parent and children processes (avoids linked lists). Contains generic fields that specify the state of the process, resources that are allocated, children, younger sibling, older sibling, parent process and more. 
+* **Resource Control Blocks (RCB)**: Data structures that are used to manage the state of resources again for transfer of allocation from one process to another upon termination, suspension, or simply finishing up the process requirements.
+
+## CPU Scheduling Algorithms & Logic
+- First-Come, First-Served (FCFS)
+- Shortest Job Next (SJN) / Shortest Job First (SFJ)
+- Shortest Remaining Time (SRT)
+- Round Robin (RR)
+- Priority Scheduling
+- Multilevel Queue Scheduling
+- Multilevel Feedback Queue Scheduling
+
+Followed by the general logic for scheduling, process creation/termination, resource creation/termination for demonstration of understanding of the material taught in Principles of Operating Systems CS 143A class at the UCI ICS.
