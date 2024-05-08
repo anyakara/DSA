@@ -28,7 +28,7 @@ Performance of these algorithms will be compared using time complexity and space
 
 
 ## OS Data Structures
-* **Process Control Blocks (PCB)**: Data structures that are essential for process manipulation, state handling, allocation and deallocation of resources, termination or control of child processes. Utilizes a unique hierarchy to organize parent and children processes (avoids linked lists). Contains generic fields that specify the state of the process, resources that are allocated, children, younger sibling, older sibling, parent process and more. 
+* **Process Control Blocks (PCB)**: Data structures that are essential for process manipulation, state handling, allocation and deallocation of resources, termination or control of child processes. Utilizes a unique hierarchy to organize parent and children processes (avoids linked lists). Contains generic fields that specify the state of the process, resources that are allocated, children, younger sibling, older sibling, and parent process.
 * **Resource Control Blocks (RCB)**: Data structures that are used to manage the state of resources again for transfer of allocation from one process to another upon termination, suspension, or simply finishing up the process requirements.
 
 ## CPU Scheduling Algorithms & Logic
