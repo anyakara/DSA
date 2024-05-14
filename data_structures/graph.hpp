@@ -66,8 +66,6 @@ inline Graph<std::string> loadGraph() {
     return iGraph;
 }
 
-/// we need some sort of a target that tells
-// mapping if it was the correct mapping in the first place
 template<typename T> // keep a mapping and convert the mapping into a vector
 inline bool BFS(T start_node) {
     Graph<std::string> igraph = loadGraph();
@@ -91,8 +89,6 @@ inline bool BFS(T start_node) {
     return true;
 }
 
-// we also need to know if the DFS algorithm we are using
-// can support other sequence type searches
 template<typename T>
 inline bool DFS(Graph<std::string> &igraph, T start_node) {
     std::unordered_set<T> visited;
