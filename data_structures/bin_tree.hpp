@@ -157,4 +157,19 @@ void BinaryTree<K, V>::remove(K key, V value) {
     recursivelyRemove(key, value, root, nullptr);
 }
 
+
+/*
+Check the symmetry of the tree by providing the left and right node pointers.
+The function returns if the binary tree is symmetric or not, recursively traversing
+both halfs.
+*/
+bool checkSymmetry(node *right, node *left) {
+    if (right == nullptr && left == nullptr) {
+        return true;
+    } else if (right != nullptr && left != nullptr) { // have this condition to check if r
+        return (left->key == right->key) && checkSymmetry(right->right, left->left) && checkSymmetry(right->left, left->right);
+    }
+    return false;
+}
+
 #endif
