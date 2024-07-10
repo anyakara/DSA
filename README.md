@@ -1,4 +1,4 @@
-# Data Structures & Algorithms Implementation & Analysis
+# DSA
 
 ## Data Structures
 Culmination of common data structures and algorithms for usage in development of software for high-performance compute, operating systems logic, database systems with efficient information retrieval. Purpose of this repository is to keep notes of efficient alternates for the different tasks of computers.
