@@ -13,6 +13,12 @@ Used extensively in hardware environments for circuit design, simulating compone
 * **[Tries](https://en.wikipedia.org/wiki/Trie)**: Used for efficient string storage and retrieval, which is important in hardware for tasks like pattern matching and data compression.
 * **[Bloom Filters](https://en.wikipedia.org/wiki/Bloom_filter)**: Probabilistic data structures used for set membership testing and are useful in hardware for tasks like caching and filtering.
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
 ## General Purpose Algorithms
 * Recursive & Iterative DFS, BFS
 * Graph Reductions
