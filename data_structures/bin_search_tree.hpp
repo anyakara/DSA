@@ -1,5 +1,5 @@
-#ifndef __GENERIC_BINARY_TREE_HPP
-#define __GENERIC_BINARY_TREE_HPP
+#ifndef __GENERIC_BINARY_SEARCH_TREE_HPP
+#define __GENERIC_BINARY_SEARCH_TREE_HPP
 
 #include <string>
 
@@ -158,4 +158,4 @@ void BinaryTree<K, V>::remove(K key, V value) {
     recursivelyRemove(key, value, root, nullptr);
 }
 
-#endif
+#endif // __GENERIC_BINARY_SEARCH_TREE_HPP
